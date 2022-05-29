@@ -1,0 +1,83 @@
+.about {
+  width: 100%;
+  padding: 3rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  .intro {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+    .intro-LS {
+      flex: 0.6;
+      .tag {
+        color: rgb(26, 168, 26);
+        font-weight: 600;
+      }
+      .title {
+        font-weight: 700;
+      }
+    }
+    .intro-RS {
+      flex: 0.4;
+      .intro-rs-descp {
+        padding: 0 1.5rem;
+      }
+    }
+  }
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    overflow: hidden;
+    .card {
+      //   width: 20rem;
+      flex: 0.33;
+      padding: 2rem;
+      margin: 0 2rem 2rem 0;
+      box-sizing: border-box;
+      border-radius: 10px;
+      transition: all 0.3s ease-in-out;
+      //   border: 1px solid black;
+
+      &:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+      }
+
+      .icon {
+        width: 30px;
+        padding: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+      }
+      .title {
+        font-size: 1.9rem;
+        padding-bottom: 10px;
+      }
+      .desc {
+        width: 90%;
+        padding-bottom: 2rem;
+      }
+      .button {
+        Button {
+          color: black;
+          border-radius: 20px;
+          padding: 10px 0;
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            color: white;
+            background-color: #4caf50;
+            border-radius: 20px;
+            padding: 10px 25px;
+          }
+        }
+      }
+    }
+  }
+}

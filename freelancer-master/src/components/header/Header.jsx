@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.scss';
+import { ReactComponent as WebDesignImage } from '../../Asset/undraw_web_devices.svg';
 
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -16,28 +17,28 @@ export default function Header() {
         <div className="header-content">
           <div className="hero-text">
             <div className="hero-text-title">
-              <Typography variant="h3">
-                We design amazing experience for you
+              <Typography sx={{ fontWeight: '700' }} variant="h3">
+                Smart Ideas for Your Brand Are Here
               </Typography>
             </div>
             <div className="hero-text-subheading">
               <Typography
-                sx={{ letterSpacing: '2px', wordSpacing: '2px' }}
+                sx={{ letterSpacing: '1px', wordSpacing: '2px' }}
                 variant="subtitle1"
               >
-                Template is a professional webflow with multiple sections.
+                our motto is to fulfill customer demand by making them satisfied
+                with growing their business.
               </Typography>
             </div>
             <div className="hero-button">
               <Button variant="contained" size="medium">
                 Get started
               </Button>
-              <Button variant="contained" size="medium">
-                Learn More
-              </Button>
             </div>
           </div>
-          <div className="hero-image">zszsddzd</div>
+          <div className="hero-image">
+            <WebDesignImage width="100%" />
+          </div>
         </div>
       </div>
     </div>

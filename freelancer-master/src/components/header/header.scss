@@ -25,10 +25,6 @@
           color: black;
           text-transform: capitalize;
           padding-bottom: 1.5rem;
-          Typography {
-            font-weight: 700;
-            color: rgba(72, 183, 116, 0.883);
-          }
         }
         .hero-text-subheading {
           width: 90%;
@@ -39,7 +35,7 @@
           Button {
             padding: 15px 30px;
             border-radius: 30px;
-            background-color: #4caf50;
+            background-color: #50b474;
           }
         }
       }

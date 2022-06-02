@@ -1,0 +1,31 @@
+$primary-background: #50b47523;
+$primary-swatch: #50b475;
+
+.testimonial {
+  height: 60vh;
+  padding: 2rem 0 2rem 2rem;
+  background: $primary-background;
+  .cards {
+    padding-top: 3rem;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // // background: #333;
+    // .glide__slide Card {
+    //   width: 100%;
+    // }
+    // .glide__slide {
+    //   filter: blur(6px);
+    //   opacity: 0.7;
+    //   transition: all 0.3s linear;
+    // }
+    // .glide__slide--active {
+    //   opacity: 1;
+    //   filter: none;
+    //   transform: scale(1.1);
+    // }
+    // .glide__slides {
+    //   overflow: visible;
+    // }
+  }
+}

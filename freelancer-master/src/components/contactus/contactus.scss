@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
   .tag {
     color: rgb(26, 168, 26);
     font-weight: 600;
@@ -11,28 +12,57 @@
     width: 60%;
     text-align: center;
     font-weight: 600;
-    margin: 1rem 0;
+    margin-bottom: 1rem;
   }
   .contactus-body {
     width: 50%;
     text-align: center;
     margin: 1rem 0;
   }
-  .form {
-    width: 30rem;
-    margin: 3rem 0;
-    padding: 1rem;
+  .contact-info {
     display: flex;
-    border-radius: 10px;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    padding-bottom: 3rem;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.08),
-      0 6px 20px 0 rgba(0, 0, 0, 0.06);
-    .submit-button {
+    // align-items: center;
+    margin: 3rem 0;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.06);
+    .contact-details {
+      width: 13rem;
+      background: #50b475;
+
+      border-radius: 10px 0 0 10px;
+      padding: 1rem;
+      box-sizing: border-box;
+      .address-container,
+      .phone-container,
+      .email-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0 1rem;
+        .address-header,
+        .phone-header,
+        .email-header {
+          color: rgba(0, 0, 0, 0.813);
+          display: flex;
+          align-items: center;
+          font-size: 1.2rem;
+          padding-bottom: 0.5rem;
+          font-weight: 600;
+        }
+      }
+    }
+    .contact-form {
+      width: 30rem;
+      padding: 1rem;
       display: flex;
+      flex-direction: column;
       justify-content: center;
-      padding: 1.5rem 0 0.5rem;
+      .submit-button {
+        display: flex;
+        justify-content: center;
+        padding: 1.5rem 0 0.5rem;
+      }
     }
   }
 }

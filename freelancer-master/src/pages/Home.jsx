@@ -3,7 +3,7 @@ import Contactus from '../components/contactus/Contactus';
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import RecentProject from '../components/recentProject/RecentProject';
-import Testimony from '../components/testimony/Testimony';
+import Testimonial from '../components/testimonial/Testimonial';
 import Vision from '../components/vision/Vision';
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
       <Vision />
       <RecentProject />
-      <Testimony />
+      <Testimonial />
       <Contactus />
       <Footer />
     </div>
